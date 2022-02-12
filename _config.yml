@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ""
-description: ""
+title: 十_三的博客
+subtitle: "天空越黑，星星越亮"
+description: "没有伞的孩子只能努力奔跑！"
 keywords:
-author: John Doe
-language: en
+author: YQW
+language: zh-CN zh-TW default(en)
 timezone: ""
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: blog.yqwblog.top
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -45,7 +45,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ""
   wrap: true
@@ -98,6 +98,11 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+
+#lazyload
+lazyload:
+  enable: true
+  loadingImg: /img/loading.gif
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
