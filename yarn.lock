@@ -1831,10 +1831,10 @@ hexo-i18n@^1.0.0:
   dependencies:
     sprintf-js "^1.0.3"
 
-hexo-lazyload-image@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.npmjs.org/hexo-lazyload-image/-/hexo-lazyload-image-1.0.10.tgz"
-  integrity sha512-sbmO1b4GOEK2zshHAlPfPC9ZCpcAZ7E9PEeZkgDyHKoVjUwSQy6noQfejYiC48j9TV3/Bvyscx4ESol8PXVBEQ==
+hexo-lazyload-image@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/hexo-lazyload-image/-/hexo-lazyload-image-1.0.13.tgz#ebc9008af7962a9022f09bb3f317ee7596f66e3c"
+  integrity sha512-6Xz+V3Rwr3zuUTo4rGnVYa2QBBOAmdjYWeVxZql1TD2CteD8gh2L7EP9d7QsFfwtMDK3BTGY2FETCdtwZx8cRw==
   dependencies:
     uglify-js "^3.0.27"
 
@@ -4681,9 +4681,10 @@ url-parse-lax@^3.0.0:
   dependencies:
     prepend-http "^2.0.0"
 
-"urllib-sync@github:jerryc127/urllib-sync":
+urllib-sync@jerryc127/urllib-sync:
   version "1.1.4"
-  resolved "git+ssh://git@github.com/jerryc127/urllib-sync.git#da6ff601d35dcc681fc2177902edcd5de1d62196"
+  uid da6ff601d35dcc681fc2177902edcd5de1d62196
+  resolved "https://codeload.github.com/jerryc127/urllib-sync/tar.gz/da6ff601d35dcc681fc2177902edcd5de1d62196"
   dependencies:
     urllib "~2.37.1"
     utility "~1.17.0"
